@@ -1,13 +1,10 @@
 # Reclaiming Disk Space From Windows 10
 
-A fresh install of Windows 10 (20H2) took up more than 63GB on my machine. I was able to cut it down to 11GB by doing the following:
-
+A fresh install of Windows 10 (20H2) took up more than 63GB on my machine. I was able to cut that down to ~10GB by:
 
 #### 1. Removing hiberfil.sys
 
 Issued `powercfg /h off` as admin to disable hibernation completely.
-
-
 
 #### 2. Shrinking pagefil.sys
 
@@ -133,3 +130,4 @@ A magician never reveals his secrets.
 #### 28. Compressing Windows OS Files
 
 Run `Compact.exe /CompactOS:always` as admin after doing everything else. I got a few GB back and a faster boot time.
+
