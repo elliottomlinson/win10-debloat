@@ -68,11 +68,11 @@ Run`Disable-WindowsOptionalFeature -FeatureName Internet-Explorer-Optional-amd64
 
 #### 14. Removing Nvidia Software After Nvoluntary Nstallation
 
-Kept Nvidia control panel.
+Uninstalled from Programs. Kept Nvidia control panel.
 
 #### 15. Uninstalling Uninstalled Program Residuals
 
-Manual deletion of files and folders.
+Manually deleted residual files and folders from `C:\Program Files`, `C:\Program Files (x86)`, and `AppData\*`.
 
 #### 16. Disabling Windows Reserved Storage
 
@@ -120,7 +120,7 @@ Navigate to `Settings > System > Storage > Configure Storage Sense`, check all t
 
 #### 26. Emptying the Recycle Bin
 
-A magician never reveals his secrets.
+Empty the recycle bin.
 
 #### 27. Reindexing OS Search
 
